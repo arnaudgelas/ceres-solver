@@ -41,6 +41,9 @@ IF (${GFLAGS})
   ADD_EXECUTABLE(powell powell.cc)
   TARGET_LINK_LIBRARIES(powell ceres)
 
+  ADD_EXECUTABLE(arnaud arnaud.cc)
+  TARGET_LINK_LIBRARIES(arnaud ceres)
+
   ADD_EXECUTABLE(circle_fit circle_fit.cc)
   TARGET_LINK_LIBRARIES(circle_fit ceres)
 
